@@ -1,0 +1,7 @@
+{
+  "invoice": {"invoice_id":"inv-2026-88","currency":"CNY","gross_amount":12800.00,"business_date":"2026-09-15"},
+  "allocations": [
+    {"allocation_id":"alloc-1","invoice_id":"inv-2026-88","artifact_id":"artifact-31","fund_id":"fund-local-material","amount":4800.00,"currency":"CNY","business_date":"2026-09-15"},
+    {"allocation_id":"alloc-2","invoice_id":"inv-2026-88","artifact_id":"artifact-44","fund_id":"fund-general","amount":8000.00,"currency":"CNY","business_date":"2026-09-15"}
+  ]
+}
