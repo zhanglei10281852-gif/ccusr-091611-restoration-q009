@@ -1,0 +1,8 @@
+{
+  "usage": [
+    {"usage_id": "use-01", "artifact_id": "artifact-31", "material": "进口加固剂", "material_origin": "imported", "quantity": 0.8, "unit": "kg", "business_date": "2026-09-17"},
+    {"usage_id": "use-02", "artifact_id": "artifact-44", "material": "进口加固剂", "material_origin": "imported", "quantity": 0.6, "unit": "kg", "business_date": "2026-09-18"},
+    {"usage_id": "use-03", "artifact_id": "artifact-52", "material": "进口加固剂", "material_origin": "imported", "quantity": 0.6, "unit": "kg", "business_date": "2026-09-18"},
+    {"usage_id": "use-04", "artifact_id": "artifact-31", "material": "国产清洗耗材", "material_origin": "domestic", "quantity": 12, "unit": "件", "business_date": "2026-09-16"}
+  ]
+}

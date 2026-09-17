@@ -4,5 +4,11 @@
   "entry_types": ["budget", "commitment", "invoice", "allocation", "return", "payment", "reversal"],
   "restriction_dimensions": ["material_origin", "artifact_class", "expense_category", "valid_period"],
   "required_allocation_fields": ["allocation_id", "invoice_id", "artifact_id", "fund_id", "amount", "currency", "business_date"],
-  "rounding_scale": 2
+  "rounding_scale": 2,
+  "commitment_kinds": ["normal", "emergency"],
+  "fx_lock_basis": "business_date",
+  "return_split_rule": "original_allocation_ratio",
+  "emergency_overdue_action": "freeze_payments",
+  "post_close_correction": "reversal_voucher",
+  "invoice_writeoff_cap": "gross_amount"
 }

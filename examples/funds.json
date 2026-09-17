@@ -1,0 +1,49 @@
+{
+  "funds": [
+    {
+      "fund_id": "fund-local-material",
+      "name": "本土材料专项资助",
+      "currency": "CNY",
+      "restrictions": [
+        {
+          "restriction_id": "r-lm-origin",
+          "dimension": "material_origin",
+          "rule": {"deny": ["imported"]},
+          "clause": "《本土材料专项资助协议》第4.2条：本专项不得用于支付进口材料"
+        },
+        {
+          "restriction_id": "r-lm-category",
+          "dimension": "expense_category",
+          "rule": {"allow": ["material", "consumable"]},
+          "clause": "《本土材料专项资助协议》第3.1条：仅限材料与耗材类支出"
+        }
+      ]
+    },
+    {
+      "fund_id": "fund-general",
+      "name": "修复项目一般经费",
+      "currency": "CNY",
+      "restrictions": [
+        {
+          "restriction_id": "r-g-period",
+          "dimension": "valid_period",
+          "rule": {"not_before": "2026-01-01", "not_after": "2026-12-31"},
+          "clause": "《年度修复经费管理办法》第2.3条：仅限2026年度内发生的支出"
+        }
+      ]
+    },
+    {
+      "fund_id": "fund-eu-conservation",
+      "name": "中欧联合保护资助",
+      "currency": "EUR",
+      "restrictions": [
+        {
+          "restriction_id": "r-eu-class",
+          "dimension": "artifact_class",
+          "rule": {"allow": ["ceramic", "painting"]},
+          "clause": "《中欧联合保护资助条款》第7条：仅限陶瓷与绘画类器物"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "invoices": [
+    {
+      "invoice_id": "inv-2026-88",
+      "currency": "CNY",
+      "gross_amount": 12800.00,
+      "business_date": "2026-09-15",
+      "material_origin": "domestic",
+      "expense_category": "consumable",
+      "description": "国产修复耗材一批"
+    },
+    {
+      "invoice_id": "inv-2026-91",
+      "currency": "CNY",
+      "gross_amount": 9600.00,
+      "business_date": "2026-09-16",
+      "material_origin": "imported",
+      "expense_category": "material",
+      "commitment_id": "cm-urg-01",
+      "description": "抢救改用进口加固剂"
+    }
+  ]
+}

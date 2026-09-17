@@ -1,0 +1,10 @@
+{
+  "rates": [
+    {"date": "2026-09-14", "base": "EUR", "quote": "CNY", "rate": 7.75},
+    {"date": "2026-09-15", "base": "EUR", "quote": "CNY", "rate": 7.80},
+    {"date": "2026-09-16", "base": "EUR", "quote": "CNY", "rate": 7.80},
+    {"date": "2026-09-30", "base": "EUR", "quote": "CNY", "rate": 7.90},
+    {"date": "2026-09-15", "base": "USD", "quote": "CNY", "rate": 7.10},
+    {"date": "2026-09-16", "base": "USD", "quote": "CNY", "rate": 7.10}
+  ]
+}
