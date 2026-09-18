@@ -1,0 +1,33 @@
+{
+  "commitments": [
+    {
+      "commitment_id": "po-2026-88",
+      "fund_id": "fund-special-local",
+      "artifact_ids": ["artifact-31", "artifact-44"],
+      "business_date": "2026-09-08",
+      "currency": "CNY",
+      "emergency": false,
+      "status": "approved",
+      "lines": [
+        {"material_id": "mat-dom-adhesive", "material_name": "国产矿物黏合剂",
+         "material_origin": "domestic", "expense_category": "consolidation_material",
+         "quantity": 64, "unit_price": 200.00}
+      ]
+    },
+    {
+      "commitment_id": "po-2026-91e",
+      "fund_id": "fund-general",
+      "artifact_ids": ["artifact-31", "artifact-44", "artifact-77"],
+      "business_date": "2026-09-12",
+      "currency": "EUR",
+      "emergency": true,
+      "status": "pending_approval",
+      "approval_deadline": "2026-09-19",
+      "lines": [
+        {"material_id": "mat-hardener-import", "material_name": "进口碳纤维加固剂",
+         "material_origin": "imported", "expense_category": "consolidation_material",
+         "quantity": 15, "unit_price": 100.00}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "receipts": [
+    {"receipt_id": "rc-88", "commitment_id": "po-2026-88", "invoice_id": "inv-2026-88",
+     "business_date": "2026-09-10", "accepted": true,
+     "accepted_quantities": {"mat-dom-adhesive": 64},
+     "note": "验收合格"},
+    {"receipt_id": "rc-91", "commitment_id": "po-2026-91e", "invoice_id": "inv-2026-91",
+     "business_date": "2026-09-14", "accepted": true,
+     "accepted_quantities": {"mat-hardener-import": 15},
+     "note": "抢救急需，现场紧急验收，待追认审批"}
+  ]
+}

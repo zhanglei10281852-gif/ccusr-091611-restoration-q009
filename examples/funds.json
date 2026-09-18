@@ -1,0 +1,26 @@
+{
+  "funds": [
+    {
+      "fund_id": "fund-special-local",
+      "name": "国产材料保护专项资助",
+      "currency": "CNY",
+      "terms": [
+        {"dimension": "material_origin", "operator": "not_in", "values": ["imported"],
+         "clause": "《国产材料保护专项资助协议》第3条：本专项禁止支付任何进口材料费用"},
+        {"dimension": "artifact_class", "operator": "in", "values": ["一级文物", "二级文物", "一般文物"],
+         "clause": "《国产材料保护专项资助协议》第4条：支出须用于协议附件所列修复器物"},
+        {"dimension": "valid_period", "operator": "within", "values": ["2026-01-01", "2026-12-31"],
+         "clause": "《国产材料保护专项资助协议》第5条：资助仅承担2026年度内发生的费用"}
+      ]
+    },
+    {
+      "fund_id": "fund-general",
+      "name": "一般事业经费",
+      "currency": "CNY",
+      "terms": [
+        {"dimension": "valid_period", "operator": "within", "values": ["2026-01-01", "2026-12-31"],
+         "clause": "《单位预算管理办法》第7条：不得列支有效期外费用"}
+      ]
+    }
+  ]
+}

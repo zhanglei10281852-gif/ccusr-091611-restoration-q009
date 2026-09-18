@@ -3,6 +3,32 @@
   "currencies": ["CNY", "EUR", "USD"],
   "entry_types": ["budget", "commitment", "invoice", "allocation", "return", "payment", "reversal"],
   "restriction_dimensions": ["material_origin", "artifact_class", "expense_category", "valid_period"],
+  "fund_term_operators": ["in", "not_in", "within"],
+  "commitment_statuses": [
+    "pending_approval",
+    "approved",
+    "completed",
+    "rejected",
+    "expired",
+    "superseded"
+  ],
+  "violation_codes": [
+    "TERM_DENIED",
+    "BUDGET_EXCEEDED",
+    "COMMITMENT_NOT_APPROVED",
+    "EMERGENCY_OVERDUE_FREEZE",
+    "RECEIPT_NOT_ACCEPTED",
+    "INVOICE_GROSS_EXCEEDED",
+    "PERIOD_CLOSED",
+    "FX_RATE_MISSING",
+    "COMMITMENT_ADJUSTMENT_BLOCKED",
+    "REVERSAL_BLOCKED"
+  ],
   "required_allocation_fields": ["allocation_id", "invoice_id", "artifact_id", "fund_id", "amount", "currency", "business_date"],
+  "fx_rate_book": {
+    "base": "CNY",
+    "rates_by_date": "{<YYYY-MM-DD>: {<currency>: <每单位外币折人民币>}}",
+    "lock_rule": "跨币种凭证按其业务日取当日汇率，汇率与本币金额一并写入凭证，后续汇率变动不重估"
+  },
   "rounding_scale": 2
 }

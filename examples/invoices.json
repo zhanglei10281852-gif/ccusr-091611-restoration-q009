@@ -1,0 +1,32 @@
+{
+  "invoices": [
+    {
+      "invoice_id": "inv-2026-88",
+      "vendor": "国风文保材料厂",
+      "currency": "CNY",
+      "business_date": "2026-09-10",
+      "gross_amount": 12800.00,
+      "tax_rate": "0",
+      "lines": [
+        {"line_id": "l-88-1", "commitment_id": "po-2026-88",
+         "material_id": "mat-dom-adhesive", "material_name": "国产矿物黏合剂",
+         "material_origin": "domestic", "expense_category": "consolidation_material",
+         "quantity": 64, "unit_price": 200.00}
+      ]
+    },
+    {
+      "invoice_id": "inv-2026-91",
+      "vendor": "Europa Conservazione S.r.l.",
+      "currency": "EUR",
+      "business_date": "2026-09-14",
+      "gross_amount": 1500.00,
+      "tax_rate": "0",
+      "lines": [
+        {"line_id": "l-91-1", "commitment_id": "po-2026-91e",
+         "material_id": "mat-hardener-import", "material_name": "进口碳纤维加固剂",
+         "material_origin": "imported", "expense_category": "consolidation_material",
+         "quantity": 15, "unit_price": 100.00}
+      ]
+    }
+  ]
+}

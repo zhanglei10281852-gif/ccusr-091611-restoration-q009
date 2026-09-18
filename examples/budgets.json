@@ -1,0 +1,8 @@
+{
+  "budgets": [
+    {"version_id": "bv-2026-01", "fund_id": "fund-special-local", "amount": 600000.00,
+     "effective_date": "2026-01-05", "note": "年初核定"},
+    {"version_id": "bv-2026-01", "fund_id": "fund-general", "amount": 300000.00,
+     "effective_date": "2026-01-05", "note": "年初核定"}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "artifacts": [
+    {"artifact_id": "artifact-31", "name": "青瓷莲花纹碗", "artifact_class": "二级文物"},
+    {"artifact_id": "artifact-44", "name": "彩绘陶俑", "artifact_class": "一级文物"},
+    {"artifact_id": "artifact-77", "name": "锡制供盒", "artifact_class": "一般文物"}
+  ]
+}
